@@ -1,0 +1,292 @@
+{
+  "burgers": [
+    {
+      "name": "Classic Cheeseburger",
+      "contents": "Beef patty, cheddar, lettuce, tomatoes, pickles, onion, ketchup, mustard, bun",
+      "price": 2.5,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Bacon Burger",
+      "contents": "Beef patty, crispy bacon, cheddar, fried onion, BBQ sauce, bun",
+      "price": 2.5,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Chicken Burger",
+      "contents": "Chicken patty, iceberg lettuce, tomatoes, mayonnaise, sesame bun",
+      "price": 2.3,
+      "oldPrice": 2.7,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Fish Burger",
+      "contents": "Breaded fish fillet, cheese, iceberg lettuce, tartar sauce, bun",
+      "price": 2,
+      "oldPrice": 3,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Vegetarian Burger",
+      "contents": "Chickpea or bean patty, lettuce, tomatoes, avocado, yogurt sauce, bun",
+      "price": 1.5,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Spicy Burger",
+      "contents": "Beef patty, jalapeño, cheddar, onion, spicy sauce, bun",
+      "price": 3,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Mushroom Burger",
+      "contents": "Beef patty, mushrooms, creamy sauce, cheese, bun",
+      "price": 2,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Double Burger",
+      "contents": "Two beef patties, double cheese, lettuce, tomatoes, sauce, bun",
+      "price": 3,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Hawaiian Burger",
+      "contents": "Chicken patty, pineapple, teriyaki sauce, lettuce, bun",
+      "price": 3,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    },
+    {
+      "name": "Egg Burger",
+      "contents": "Beef patty, egg, cheese, bacon, lettuce, sauce, bun",
+      "price": 2,
+      "oldPrice": 2.5,
+      "image": "https://png.pngtree.com/png-clipart/20231020/original/pngtree-3d-illustration-cheese-burger-png-image_13381662.png"
+    }
+  ],
+  "pizzas": [
+    {
+      "name": "Margherita",
+      "contents": "Tomato sauce, mozzarella, fresh basil, olive oil, pizza dough",
+      "price": 3,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "Pepperoni",
+      "contents": "Tomato sauce, mozzarella, pepperoni, pizza dough",
+      "price": 3,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "BBQ Chicken",
+      "contents": "BBQ sauce, mozzarella, grilled chicken, red onion, cilantro, pizza dough",
+      "price": 2,
+      "oldPrice": 3,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "Four Cheese",
+      "contents": "Tomato sauce, mozzarella, parmesan, gorgonzola, ricotta, pizza dough",
+      "price": 3,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "Vegetarian",
+      "contents": "Tomato sauce, mozzarella, bell peppers, mushrooms, olives, onions, pizza dough",
+      "price": 1.5,
+      "oldPrice": 2,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "Hawaiian",
+      "contents": "Tomato sauce, mozzarella, ham, pineapple, pizza dough",
+      "price": 2,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "Meat Lover's",
+      "contents": "Tomato sauce, mozzarella, pepperoni, sausage, ham, bacon, pizza dough",
+      "price": 2,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "Mushroom Truffle",
+      "contents": "Cream sauce, mozzarella, mushrooms, truffle oil, parmesan, pizza dough",
+      "price": 2,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "Seafood",
+      "contents": "Tomato sauce, mozzarella, shrimp, squid, mussels, garlic, parsley, pizza dough",
+      "price": 2,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    },
+    {
+      "name": "Spicy Diablo",
+      "contents": "Tomato sauce, mozzarella, spicy salami, jalapeños, red pepper flakes, pizza dough",
+      "price": 2,
+      "image": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-pepperoni-pizza-isolated-with-clipping-path-png-image_9221595.png"
+    }
+  ],
+  "sushi": [
+    {
+      "name": "Salmon Nigiri",
+      "contents": "Sushi rice, fresh salmon, wasabi",
+      "price": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "Tuna Nigiri",
+      "contents": "Sushi rice, fresh tuna, wasabi",
+      "price": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "Eel Nigiri",
+      "contents": "Sushi rice, grilled eel, eel sauce",
+      "price": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "California Roll",
+      "contents": "Sushi rice, crab, avocado, cucumber, seaweed",
+      "price": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "Philadelphia Roll",
+      "contents": "Sushi rice, salmon, cream cheese, avocado, seaweed",
+      "price": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "Dragon Roll",
+      "contents": "Sushi rice, eel, avocado, cucumber, seaweed",
+      "price": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "Shrimp Tempura Roll",
+      "contents": "Sushi rice, tempura shrimp, avocado, cucumber, seaweed",
+      "price": 3.5,
+      "oldPrice": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "Spicy Tuna Roll",
+      "contents": "Sushi rice, spicy tuna, cucumber, seaweed",
+      "price": 3.5,
+      "oldPrice": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "Rainbow Roll",
+      "contents": "Sushi rice, crab, avocado, cucumber, assorted fish, seaweed",
+      "price": 3.5,
+      "oldPrice": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    },
+    {
+      "name": "Vegetarian Roll",
+      "contents": "Sushi rice, avocado, cucumber, carrot, seaweed",
+      "price": 5,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/041/713/980/small/ai-generated-fresh-salmon-sushi-roll-with-avocado-and-rice-on-transparent-background-stock-png.png"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Pepsi 0.5L",
+      "contents": "",
+      "price": 0.7,
+      "image": "https://aleksandrsann.ks.ua/image/cache/catalog/napitki/pepsi_plastik1-370x370h.png"
+    },
+    {
+      "name": "Sprite 0.5L",
+      "contents": "",
+      "price": 0.7,
+      "image": "https://i.pinimg.com/originals/fe/79/a7/fe79a77d57b98386b8c05706eec0bd84.png"
+    },
+    {
+      "name": "Fanta 0.5L",
+      "contents": "",
+      "price": 0.7,
+      "image": "https://free-png.ru/wp-content/uploads/2022/06/free-png.ru-359-370x370.png"
+    },
+    {
+      "name": "Coca-Cola 0.5L",
+      "contents": "",
+      "price": 0.7,
+      "image": "https://static.vecteezy.com/system/resources/previews/036/573/467/non_2x/classic-bottle-of-coca-cola-free-png.png"
+    },
+    {
+      "name": "Mountain Dew 0.5L",
+      "contents": "",
+      "price": 0.7,
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bf793180-5ab2-466f-a756-600f6def747f/de7a4eu-3e76e755-b08e-4f39-9f2b-ec2cd46b52c4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JmNzkzMTgwLTVhYjItNDY2Zi1hNzU2LTYwMGY2ZGVmNzQ3ZlwvZGU3YTRldS0zZTc2ZTc1NS1iMDhlLTRmMzktOWYyYi1lYzJjZDQ2YjUyYzQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.uN_iM5VtIGBWkvzMzagYDPxxPvuEN7k7an0nkMag8y4"
+    },
+    {
+      "name": "Schweppes 0.5L",
+      "contents": "",
+      "price": 0.7,
+      "image": "https://www.coca-cola.com/content/dam/onexp/za/en/schweppes-last-version/schweppes-lemonade.png"
+    },
+    {
+      "name": "7UP 0.5L",
+      "contents": "",
+      "price": 0.5,
+      "oldPrice": 0.7,
+      "image": "https://132550465.cdn6.editmysite.com/uploads/1/3/2/5/132550465/s251350143713631754_p80_i1_w512.png"
+    },
+    {
+      "name": "Dr. Pepper 0.5L",
+      "contents": "",
+      "price": 0.5,
+      "oldPrice": 0.7,
+      "image": "https://s7d1.scene7.com/is/image/kdrp/DP_VanillaFloat_12oz_Can_Wet?$Dynamic-PublicURL-PNG$&wid=480&hei=480"
+    },
+    {
+      "name": "Tonic 0.5L",
+      "contents": "",
+      "price": 0.5,
+      "oldPrice": 0.7,
+      "image": "https://static.vecteezy.com/system/resources/previews/044/651/036/non_2x/a-gin-and-tonic-with-lime-and-lemon-served-on-the-rocks-png.png"
+    },
+    {
+      "name": "Lipton 0.5L",
+      "contents": "",
+      "price": 0.5,
+      "oldPrice": 0.7,
+      "image": "https://www.liptonicedtea.com/s3fs-public/2023-07/LIT-UK-header-product.png"
+    }
+  ],
+  "sets": [
+    {
+      "name": "Burger set",
+      "contents": "Classic Cheeseburger, Bacon Burger, Spicy Burger",
+      "price": 6,
+      "oldPrice": 8,
+      "image": "https://www.honestburgers.co.uk/wp-content/uploads/2024/08/240711_Honest-Burgers_Halloum-trio_Web-1.jpg"
+    },
+    {
+      "name": "Pizza set",
+      "contents": "Margherita, Pepperoni, Four Cheese",
+      "price": 7,
+      "oldPrice": 9,
+      "image": "https://adriano.com.ua/wp-content/uploads/2022/07/%D0%A1%D0%B5%D1%82-%D0%9F%CA%BC%D1%8F%D1%82%D1%8C-%D1%85%D1%96%D1%82%D1%96%D0%B2-1.png"
+    },
+    {
+      "name": "Sushi set",
+      "contents": "Salmon Nigiri, Tuna Nigiri, California Roll",
+      "price": 11,
+      "oldPrice": 15,
+      "image": "https://fish-sushi.com/wp-content/uploads/2023/02/%D0%A4%D1%96%D1%88.jpg"
+    },
+    {
+      "name": "Combo set",
+      "contents": "Classic Cheeseburger, Margherita, Coca-Cola 0.5L",
+      "price": 5,
+      "oldPrice": 6.2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqNFEbaQTyYrqqtqE16AXHt1jFvKrFhOeQHQ&s"
+    }
+  ]
+}
