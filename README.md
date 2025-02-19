@@ -27,13 +27,10 @@
 2. cd Lippear-burger
 3. cd Burger-client
 4. yarn install
-5. yarn dev
-
-#### Server-side setup / Налаштування серверної частини
-
-6. cd ../burger-server-json
-7. npm install
-8. node server.js
+5. cd ../burger-server-json
+6. npm install
+7. IN Burger-client terminal - "yarn dev"
+8. IN burger-server-json terminal - "node server.js"
 
 ![screen1](screenShots/Screen1.png)
 ![screen1](screenShots/Screen2.png)
