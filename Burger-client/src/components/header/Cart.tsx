@@ -6,6 +6,7 @@ import useClickOutside from '../../hooks/useClickOutside'
 import { MenuItem } from '../../interfaces/MenuInterface'
 import { removeItemFromCart } from '../../store/slices/cartSlice'
 import { useNavigate } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const Cart = () => {
   const [isCartMenuOpen, setIsCartMenuOpen] = useState(false)
@@ -18,7 +19,12 @@ const Cart = () => {
 
   const CartMenu = () => {
     return (
-      <div className="w-[300px] absolute h-[320px] top-[45px] right-[0] rounded-[10px] border-black border-2 bg-white">
+      <motion.div
+        initial={{ scale: 0, x: 120, y: -130 }}
+        animate={{ scale: 1, x: 0, y: 0 }}
+        transition={{ duration: 0.2, ease: 'easeOut' }}
+        className="w-[300px] absolute h-[320px] top-[45px] right-[0] rounded-[10px] border-black border-2 bg-white"
+      >
         <div className="flex flex-col items-center gap-[5px] h-[250px] overflow-y-auto mt-[10px] scrollbar-custom">
           {addedItems.reverse().map(item => {
             return (
@@ -46,7 +52,7 @@ const Cart = () => {
             To cart
           </button>
         </div>{' '}
-      </div>
+      </motion.div>
     )
   }
 

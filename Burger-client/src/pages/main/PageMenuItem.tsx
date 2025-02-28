@@ -1,15 +1,28 @@
-import { MenuItem } from '../../interfaces/MenuInterface'
+import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
 import { useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { selectCartAddedItems } from '../../store/selectors/cartSelector'
 import { addItemToCart, removeItemFromCart } from '../../store/slices/cartSlice'
-import { useDispatch } from 'react-redux'
+import { MenuItem } from '../../interfaces/MenuInterface'
 
 const PageMenuItem = ({ item }: { item: MenuItem }) => {
   const isInCart: boolean = useSelector(selectCartAddedItems).some(cartItem => cartItem.item.name === item.name)
   const dispatch = useDispatch()
 
+  const { ref, inView } = useInView({
+    triggerOnce: true, 
+    threshold: 0.3, 
+  })
+
   return (
-    <div className="w-full h-[150px] rounded-[10px] shadow-[0_0_10px_rgba(0,0,0,0.2)] bg-white relative">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0.5, y: 100 }}
+      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0.5, y: 100 }}
+      transition={{ duration: 0.7 }}
+      className="w-full h-[150px] rounded-[10px] shadow-[0_0_10px_rgba(0,0,0,0.2)] bg-white relative"
+    >
       <div className="absolute top-[15px] left-[10px] h-[120px] w-[120px] flex justify-center items-center">
         <img className="h-full w-auto object-contain" src={item.image} alt="image" />
       </div>
@@ -31,7 +44,7 @@ const PageMenuItem = ({ item }: { item: MenuItem }) => {
       >
         {isInCart ? '-' : '+'}
       </button>
-    </div>
+    </motion.div>
   )
 }
 
